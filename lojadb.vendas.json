@@ -1,0 +1,90 @@
+[{
+  "_id": {
+    "$oid": "6a9b49e5eaf3e44d426e3cd0"
+  },
+  "nome": "João",
+  "vip": 1,
+  "email": "joao@email.com",
+  "telefone": [
+    "9999-1111",
+    "8888-1111"
+  ],
+  "endereco": {
+    "rua": "Rua Um",
+    "numero": 1000,
+    "complemento": "Apto 1 Bloco 1",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  "compras": [
+    {
+      "nomeProduto": "notebook",
+      "preco": 5000,
+      "quantidade": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a9b4a68eaf3e44d426e3cd2"
+  },
+  "nome": "Marcos",
+  "vip": 0,
+  "telefone": [
+    "9999-2222"
+  ],
+  "endereco": {
+    "rua": "Rua Dois",
+    "numero": 4000,
+    "cidade": "Campinas",
+    "estado": "SP"
+  },
+  "compras": [
+    {
+      "nomeProduto": "Caderno",
+      "preco": 20,
+      "quantidade": 1
+    },
+    {
+      "nomeProduto": "Caneta",
+      "preco": 3,
+      "quantidade": 5
+    },
+    {
+      "nomeProduto": "Borracha",
+      "preco": 2,
+      "quantidade": 2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "6a9b4a95eaf3e44d426e3cd4"
+  },
+  "nome": "Maria",
+  "vip": 1,
+  "email": "maria@email.com",
+  "telefone": [
+    "9999-3333",
+    "8888-3333",
+    "9988-3000"
+  ],
+  "endereco": {
+    "rua": "Rua Três",
+    "numero": 3000,
+    "cidade": "Londrina",
+    "estado": "PR"
+  },
+  "compras": [
+    {
+      "nomeProduto": "Tablet",
+      "preco": 2500,
+      "quantidade": 1
+    },
+    {
+      "nomeProduto": "Capa para tablet",
+      "preco": 50,
+      "quantidade": 1
+    }
+  ]
+}]
